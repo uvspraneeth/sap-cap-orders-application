@@ -27,5 +27,17 @@
       ],
       "attribute-references": []
     }
-  ]
+  ],
+  "authorities": [
+    "$ACCEPT_GRANTED_AUTHORITIES"
+  ],
+  "oauth2-configuration": {
+    "token-validity": 900,
+    "refresh-token-validity": 1800,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ],
+    "autoapprove": "false"
+  },
+  "xsenableasyncservice": true
 }
